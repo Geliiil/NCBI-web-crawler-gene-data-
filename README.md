@@ -14,3 +14,10 @@ The input file must be an Excel file (.xlsx), following the provided example for
 
 
 You can access NCBI here: https://www.ncbi.nlm.nih.gov/
+
+## Data Source
+All gene information and sequence data are retrieved from the National Center for Biotechnology Information (NCBI) database, using the NCBI Entrez Programming Utilities (E-utilities) and NCBI Sequence Viewer API
+
+>Source: National Center for Biotechnology Information (NCBI), U.S. National Library of Medicine.
+Website: https://www.ncbi.nlm.nih.gov/
+
