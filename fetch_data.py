@@ -3,7 +3,7 @@ from xml.etree.ElementTree import fromstring, ElementTree
 import os
 import time
 from tqdm import tqdm
-os.chdir("/Users/jinwenyu/Desktop/ncbi_data/data") #data folder path
+os.chdir("/data") #data folder path
 def fetch_data(name,Accessions):
   IDs =[]
   ncbi_url = "https://www.ncbi.nlm.nih.gov/sviewer/viewer.cgi?"
@@ -30,7 +30,7 @@ def fetch_data(name,Accessions):
 
 # read xlsx
 import pandas as pd
-path = "/Users/jinwenyu/Desktop/ncbi_data/NCBI-網路爬蟲測試.xlsx" #file (xlsx) path
+path = "NCBI-test.xlsx" #file (xlsx) path
 df = pd.read_excel(path)
 pbar = tqdm(total=len(df),desc="Fetching data...")
 for i in range(len(df)):
